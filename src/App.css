@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("./assets/background.jpg");
 }
 
 .App-logo {
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #da3b20;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

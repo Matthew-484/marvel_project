@@ -1,0 +1,99 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-wrapper {
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.text-box {
+  width: 75%;
+  margin-left: 20px;
+  position: relative;
+}
+
+.title-div {
+  display: flex;
+  margin: 10px 20px;
+}
+
+.white {
+  color: white;
+}
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  width: 250px;
+  height: 400px;
+  margin: 20px;
+  position: relative;
+}
+
+.character-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.character-img-cover {
+  position: absolute;
+  background-color: black;
+  opacity: 0;
+  width: 100%;
+  height: 30%;
+  bottom: -30%;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 500ms ease;
+}
+
+.character-name,
+.comics-link,
+.copyright {
+  color: white;
+  font-size: 16px;
+}
+
+.comics-link {
+  text-decoration: none;
+}
+
+.card:hover .character-img-cover {
+  opacity: 0.8;
+  bottom: 0px;
+}
